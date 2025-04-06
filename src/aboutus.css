@@ -1,0 +1,65 @@
+
+
+.head{
+    color: rgb(209, 6, 67);
+}
+.spam{
+    color: black;
+}
+h1{
+    margin: 10px;
+    padding: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.about-content h2{
+    text-align: center;
+    font-size: 40px;
+}
+.about-content p{
+    margin: 10px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-cards{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 60px;
+    gap: 40px;
+}
+.card-item{
+    
+    width: 20%;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgb(209, 6, 67);
+}
+.card-item h3{
+    text-align: center;
+    color:rgb(134, 5, 44) ;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card-item h4{
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.card-item:hover{
+    border: 2px solid rgb(209, 6, 67);
+    box-shadow: 20px 20px 20px rgba(14, 0, 0, 0.2);
+    background-color: white;
+    color: rgb(209, 6, 67);
+}
+body{
+    background-image: url('../src/images\ \(1\)-Photoroom.png');
+    background-repeat: no-repeat; 
+    position: relative;
+    z-index: -1;
+    margin: 20px;
+    height: 30vh;
+}

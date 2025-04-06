@@ -1,0 +1,56 @@
+
+.nav{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 5%;
+}
+ul{
+    
+    list-style-type: none;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(209, 6, 67);
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+li{
+    
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;  
+}
+a:hover{
+    border: 2px solid rgb(209, 6, 67);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    color: rgb(209, 6, 67);
+}
+.cardcount{
+    padding: 5px;
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 30px;
+    
+}
+.nav-heading{
+    font-weight: bold;
+    color: rgb(148, 5, 48);
+    padding: 10px;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 30px;
+}
+.quotation{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(148, 5, 48);
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 30px;
+line-height: 1.5;
+}

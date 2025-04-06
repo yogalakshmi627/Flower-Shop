@@ -1,0 +1,73 @@
+.contact-container{
+    display: flex;
+    justify-content: center;
+}
+.contact-detail form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-detail{
+    width: 35%;
+    margin: 3%;
+    padding: 3%; 
+}
+.contact-detail label{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(134, 5, 44);
+}
+.contact-detail input{
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 5px rgb(209, 6, 67);
+    padding: 15px;
+    border-radius: 10px;
+    color:rgb(134, 5, 44) ;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contact-detail input:focus{
+    border: 1px solid rgb(209, 6, 67);
+    box-shadow: 3px 3px 3px black;
+    outline: none;
+    color:rgb(134, 5, 44) ;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contact-detail textarea{
+    border: 1px solid transparent;
+    box-shadow: 5px 5px 5px rgb(209, 6, 67);
+    padding: 50px;
+    border-radius: 10px;
+    color:rgb(134, 5, 44) ;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contact-detail textarea:focus{
+    border: 1px solid rgb(209, 6, 67);
+    box-shadow: 3px 3px 3px black;
+    outline: none;
+    color:rgb(134, 5, 44) ;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contact-button{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: rgb(209, 6, 67);
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+.contact-button:hover{
+    border: 3px solid rgb(209, 6, 67);
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    color: rgb(209, 6, 67);
+}
+.contact-image img{
+    height: 80%;
+    margin: 7%;
+}

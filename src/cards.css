@@ -1,0 +1,73 @@
+.container-card{
+    justify-content: center;
+}
+.topic{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(209, 6, 67);
+}
+.cardsflower{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.product-cards{
+    color: rgb(134, 5, 44);
+    font-size: 30px;
+    font-weight: bold;
+    border: 3px solid transparent;
+    margin: 10px;
+    padding: 10px;
+    height: 90%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px  rgb(209, 6, 67);
+}
+.product-cards:hover{
+    border: 2px solid rgb(209, 6, 67);
+    box-shadow: 20px 20px 20px rgba(14, 0, 0, 0.2);
+    background-color: white;
+    color: rgb(209, 6, 67);
+
+}
+.card-image{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px  rgb(209, 6, 67);
+    height: 250px;
+    width: 440px;
+}
+.product-cards h4{
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.product-cards p,h5{
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 10px;
+}
+button{
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: rgb(209, 6, 67);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+button:hover{
+    border: 2px solid rgb(209, 6, 67);
+    box-shadow: 20px 20px 20px rgba(14, 0, 0, 0.2);
+    background-color: white;
+    color: rgb(209, 6, 67);
+    transform: translateY(-.5rem);
+}
+.btnremove{
+    background-color: red !important;
+}
