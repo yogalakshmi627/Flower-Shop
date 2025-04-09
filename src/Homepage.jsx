@@ -6,7 +6,7 @@ export default function Homepage() {
     <>
     <div className='home-container'>
     <div className='home-image'>
-      <img src='girl-Photoroom.png'/>
+      <img src='../src/girl-Photoroom.png'/>
     </div>
       <div className='home-content'>
       <h1>fresh flowers</h1>
