@@ -30,9 +30,7 @@ export default function Contact() {
 <label>Phone</label>
 <input type='number'  name='phone' value={formData.phone} onChange={handlechange} required/>
 <label>Description</label>
-<textarea type='text'>
-<input type='text'  name='description' value={formData.description} onChange={handlechange} required/>
-</textarea>
+<input type='text' className='textarea' name='description' value={formData.description} onChange={handlechange} required/>
 <button className='contact-button' type='submit'>Submit</button>
 </form>
       </div>

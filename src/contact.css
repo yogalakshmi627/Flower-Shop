@@ -35,7 +35,7 @@
     font-size: 20px;
     font-weight: bold;
 }
-.contact-detail textarea{
+.contact-detail .textarea{
     border: 1px solid transparent;
     box-shadow: 5px 5px 5px rgb(209, 6, 67);
     padding: 50px;
@@ -44,7 +44,7 @@
     font-size: 20px;
     font-weight: bold;
 }
-.contact-detail textarea:focus{
+.contact-detail .textarea:focus{
     border: 1px solid rgb(209, 6, 67);
     box-shadow: 3px 3px 3px black;
     outline: none;

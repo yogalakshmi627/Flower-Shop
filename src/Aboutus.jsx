@@ -9,10 +9,12 @@ export default function Aboutus() {
 <div className='about-container'>
   <div className='about-content'>
   <h2>Why Choose Us?</h2>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum quasi repellat, magnam <br/>
-                hic iste quia tenetur non sapiente, corrupti laudantium<br/>
-                    perferendis distinction animi quod? Natus ducimus<br/>
-                           enim non temporibus doloremque?</p>
+  <p>A florist shop is a retail establishment that sells cut flowers<br/>
+     and ornamental plants. The floral trade involves activities <br/>
+     such as flower care, flower arranging, floral design,<br/>
+      merchandising, and often flower delivery. Florist <br/>
+      shops are an ever popular industry and one of <br/>
+      the most searched guides on our website.</p>
                           
 </div>
 

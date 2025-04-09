@@ -11,7 +11,7 @@ export default function Homepage() {
       <div className='home-content'>
       <h1>fresh flowers</h1>
       <h3>natural and beautiful flowers</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus voluptatum a deleniti adipisci sequi dolores doloremque iusto neque labore excepturi cumque fugiat, ipsa voluptas voluptatem sed aliquid molestiae quisquam molestias!</p>
+      <p>They are responsible for bringing happiness in our lives and making our surrounding environment a prettier place to live in. Thus, we must all plant flowers at homes and in our neighbourhood to beautify the place and bring happiness and joy for everyone passing by.</p>
       <Link to={"/DisplayCards"} className='home-button'><i class="fa fa-heart" aria-hidden="true"> Shop now</i></Link>
     </div>
     </div>
