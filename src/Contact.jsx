@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './contact.css'
+import contactimg from '..src/contact-Photoroom.png'
 export default function Contact() {
 
   const[formData,setFormData]=useState({
@@ -35,7 +36,7 @@ export default function Contact() {
 </form>
       </div>
      <div className='contact-image'>
-<img src='../src/contact-Photoroom.png'/>
+<img src={contactimg} alt='contact'/>
      </div>
     </div>
     </>
