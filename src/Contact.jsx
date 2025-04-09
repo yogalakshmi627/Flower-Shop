@@ -35,7 +35,7 @@ export default function Contact() {
 </form>
       </div>
      <div className='contact-image'>
-<img src='contact-Photoroom.png'/>
+<img src='../src/contact-Photoroom.png'/>
      </div>
     </div>
     </>
