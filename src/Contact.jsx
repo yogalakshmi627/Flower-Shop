@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './contact.css'
-import contactimg from '..src/contact-Photoroom.png'
+import contactimg from 'contact-Photoroom.png'
 export default function Contact() {
 
   const[formData,setFormData]=useState({
